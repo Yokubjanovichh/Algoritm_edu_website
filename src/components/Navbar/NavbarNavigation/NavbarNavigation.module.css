@@ -1,0 +1,33 @@
+.navbarNavigation {
+  display: flex;
+  align-items: center;
+  column-gap: calc(26 / 12.8 * 1vw);
+}
+
+.navbarNavigation > a {
+  padding: calc(7 / 12.8 * 1vw) calc(17 / 12.8 * 1vw);
+  border-radius: calc(8 / 12.8 * 1vw);
+  font-family: var(--text-fontFamily);
+  font-size: calc(16 / 12.8 * 1vw);
+  font-weight: 500;
+  line-height: calc(20 / 12.8 * 1vw);
+  color: #ffffff80;
+  transition: all 0.2s linear;
+}
+
+.navbarNavigation > a:hover,
+.active {
+  background: var(--btn-color);
+  color: #000000 !important;
+}
+
+/* media section from 430px to 0 */
+
+@media only screen and (max-width: 430px) {
+  .navbarNavigation > a {
+    padding: calc(7 / 4.3 * 1vw) calc(17 / 4.3 * 1vw);
+    border-radius: calc(8 / 4.3 * 1vw);
+    font-size: calc(14 / 4.3 * 1vw);
+    line-height: calc(17 / 4.3 * 1vw);
+  }
+}

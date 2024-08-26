@@ -1,0 +1,12 @@
+.main {
+  width: 100%;
+  margin-top: calc(30 / 12.8 * 1vw);
+}
+
+/* media section from 430px to 0 */
+
+@media only screen and (max-width: 430px) {
+  .main {
+    margin-top: calc(25 / 4.3 * 1vw);
+  }
+}

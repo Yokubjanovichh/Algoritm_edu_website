@@ -1,0 +1,108 @@
+.mobile {
+  display: none;
+}
+
+.navbarContainer {
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  backdrop-filter: blur(25px);
+}
+
+.navbarWrapper {
+  width: 100%;
+  padding-top: calc(50 / 12.8 * 1vw);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarWrapper.scrolled {
+  padding-top: calc(20 / 12.8 * 1vw);
+  padding-bottom: calc(15 / 12.8 * 1vw);
+}
+
+.navbarWrapper > a > img {
+  width: calc(167 / 12.8 * 1vw);
+  height: calc(30 / 12.8 * 1vw);
+}
+
+.navbarNavigation {
+  display: flex;
+  align-items: center;
+  column-gap: calc(31 / 12.8 * 1vw);
+}
+
+.navbarNavigation > a {
+  padding: calc(7 / 12.8 * 1vw) calc(9 / 12.8 * 1vw);
+  border-radius: calc(8 / 12.8 * 1vw);
+  font-family: var(--text-fontFamily);
+  font-size: calc(16 / 12.8 * 1vw);
+  font-weight: 500;
+  line-height: calc(20 / 12.8 * 1vw);
+  color: #ffffff80;
+  transition: all 0.2s linear;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0 calc(1 / 12.8 * 1vw) #252525,
+    0 0 0 calc(2 / 12.8 * 1vw) rgba(68, 68, 68, 0.5),
+    0 0 0 calc(3 / 12.8 * 1vw) rgba(24, 24, 24, 0.5);
+}
+
+.navbarNavigation > a:hover {
+  background: var(--btn-color);
+  color: #000000;
+  box-shadow: none;
+  border: none;
+}
+
+.navbarNavigation > a:focus {
+  background: var(--btn-color);
+  color: #000000;
+}
+
+/* Navbar media section from 430px to 0px */
+
+@media only screen and (max-width: 430px) {
+  .navbarContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: calc(24 / 4.3 * 1vw);
+  }
+
+  .navbarContainerScroll {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: calc(10 / 4.3 * 1vw);
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
+
+  .navbarWrapper {
+    padding-top: calc(20 / 4.3 * 1vw);
+  }
+
+  .navbarWrapper > a > img {
+    width: calc(122 / 4.3 * 1vw);
+    height: calc(22 / 4.3 * 1vw);
+  }
+
+  .navbarNavigation > a {
+    padding: calc(7 / 4.3 * 1vw) calc(18 / 4.3 * 1vw);
+    font-size: calc(12 / 4.3 * 1vw);
+    line-height: calc(15 / 4.3 * 1vw);
+  }
+
+  .navbarNavigation {
+    column-gap: calc(24 / 4.3 * 1vw);
+  }
+}

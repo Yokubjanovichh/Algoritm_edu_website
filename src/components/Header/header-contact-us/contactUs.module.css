@@ -1,0 +1,249 @@
+.contactUsWrapper {
+  width: calc(549 / 12.8 * 1vw);
+  height: calc(317 / 12.8 * 1vw);
+  background: url(../../../assets/svg/headerContactaUs.svg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: calc(40 / 12.8 * 1vw) calc(96 / 12.8 * 1vw) calc(63 / 12.8 * 1vw)
+    calc(32 / 12.8 * 1vw);
+  position: relative;
+}
+
+.contactUsWrapper > h1 {
+  font-family: var(--text-fontHeading);
+  font-size: calc(36 / 12.8 * 1vw);
+  font-weight: 600;
+  line-height: calc(40 / 12.8 * 1vw);
+  background: linear-gradient(105.41deg, #fdeb71 -123.73%, #f8d800 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.contactUsWrapper > p {
+  font-family: var(--text-fontFamily);
+  font-size: calc(12 / 12.8 * 1vw);
+  font-weight: 400;
+  line-height: calc(15 / 12.8 * 1vw);
+  color: #ffffffb2;
+  margin-top: calc(6 / 12.8 * 1vw);
+  margin-bottom: calc(12 / 12.8 * 1vw);
+}
+
+.formInputs {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: calc(12 / 12.8 * 1vw);
+  flex-wrap: wrap;
+}
+
+.formInputs > input:nth-child(1) {
+  width: calc(421 / 12.8 * 1vw);
+  height: calc(59 / 12.8 * 1vw);
+}
+
+.formInputs > input::placeholder {
+  color: #ffffffb2;
+}
+
+.formInputs > input {
+  color: #ffffffb2;
+  background: #252525;
+  border: calc(1 / 12.8 * 1vw) solid #252525;
+  padding-left: calc(23 / 12.8 * 1vw);
+  outline: none;
+  position: relative;
+  z-index: 1;
+}
+
+.formInputs > input:focus,
+.formInputs > input:hover {
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0 calc(1 / 12.8 * 1vw) #252525,
+    0 0 0 calc(2 / 12.8 * 1vw) #dec400;
+}
+
+.formInputs > input,
+.formInputs > button {
+  font-family: var(--text-fontFamily);
+  font-size: calc(20 / 12.8 * 1vw);
+  font-weight: 300;
+  line-height: calc(24 / 12.8 * 1vw);
+  border-radius: calc(10 / 12.8 * 1vw);
+  transition: all 0.2s ease;
+}
+
+.formInputs > input:nth-child(2) {
+  width: calc(264 / 12.8 * 1vw);
+  height: calc(59 / 12.8 * 1vw);
+}
+
+.formInputs > button {
+  width: calc(145 / 12.8 * 1vw);
+  height: calc(59 / 12.8 * 1vw);
+  border: none;
+  font-family: var(--text-fontFamily);
+  color: #000000;
+  background: linear-gradient(105.41deg, #fdeb71 -123.73%, #f8d800 100%);
+  transition: all 0.2s ease;
+  font-weight: 400;
+}
+
+.formInputs > button:hover {
+  background: linear-gradient(105.41deg, #f8d800 -123.73%, #fdeb71 100%);
+}
+
+.formInputs > button:active {
+  transform: scale(0.98);
+}
+
+.starRotate {
+  width: calc(52 / 12.8 * 1vw);
+  height: calc(52 / 12.8 * 1vw);
+  position: absolute;
+  top: 0;
+  right: calc(8 / 12.8 * 1vw);
+  animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.policy {
+  position: absolute;
+  bottom: calc(2 / 12.8 * 1vw);
+  left: calc(32 / 12.8 * 1vw);
+  color: white;
+  display: flex;
+  align-items: center;
+  column-gap: calc(10 / 12.8 * 1vw);
+  user-select: none;
+}
+
+/* policy icon */
+
+.policyCheck {
+  width: calc(20 / 12.8 * 1vw);
+  height: calc(20 / 12.8 * 1vw);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #252525, 0 0 0 2px rgba(68, 68, 68, 0.5),
+    0 0 0 3px rgba(24, 24, 24, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.policyChecked {
+  box-shadow: none;
+  background: linear-gradient(105.41deg, #ffe000 -123.73%, #dec400 100%);
+}
+
+.policyCheck > img {
+  width: calc(11 / 12.8 * 1vw);
+  height: calc(10 / 12.8 * 1vw);
+}
+
+.policy {
+  cursor: pointer;
+}
+
+.policy > p {
+  font-family: var(--text-fontFamily);
+  font-size: calc(12 / 12.8 * 1vw);
+  font-weight: 400;
+  line-height: calc(15 / 12.8 * 1vw);
+  color: #ffffffb2;
+}
+
+.policy > p > a {
+  text-decoration: underline;
+}
+
+/* media section form 430px to 0px */
+
+@media only screen and (max-width: 430px) {
+  .contactUsWrapper {
+    width: calc(370 / 4.3 * 1vw);
+    height: calc(214 / 4.3 * 1vw);
+    padding: calc(26 / 4.3 * 1vw) calc(23 / 4.3 * 1vw) calc(15 / 4.3 * 1vw)
+      calc(23 / 4.3 * 1vw);
+    background: url(../../../assets/svg/contack-430.svg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .starRotate {
+    width: calc(37 / 4.3 * 1vw);
+    height: calc(37 / 4.3 * 1vw);
+    top: calc(-2 / 4.3 * 1vw);
+    right: 0;
+  }
+
+  .contactUsWrapper > h1 {
+    font-size: calc(28 / 4.3 * 1vw);
+    line-height: calc(35 / 4.3 * 1vw);
+  }
+
+  .contactUsWrapper > p {
+    font-size: calc(8 / 4.3 * 1vw);
+    line-height: calc(10 / 4.3 * 1vw);
+    margin-bottom: calc(14 / 4.3 * 1vw);
+  }
+
+  .formInputs {
+    column-gap: calc(10 / 4.3 * 1vw);
+    row-gap: calc(16 / 4.3 * 1vw);
+    justify-content: right;
+  }
+
+  .formInputs > input {
+    width: calc(155 / 4.3 * 1vw) !important;
+    height: calc(43 / 4.3 * 1vw) !important;
+    padding-left: calc(15 / 4.3 * 1vw);
+    border-radius: calc(8 / 4.3 * 1vw);
+    font-size: calc(13 / 4.3 * 1vw);
+    font-weight: 400;
+    line-height: calc(16 / 4.3 * 1vw);
+  }
+
+  .formInputs > button {
+    width: calc(149 / 4.3 * 1vw);
+    height: calc(47 / 4.3 * 1vw);
+    font-weight: 600;
+    font-size: calc(20 / 4.3 * 1vw);
+    line-height: calc(24 / 4.3 * 1vw);
+    border-radius: calc(10 / 4.3 * 1vw);
+  }
+
+  .policy {
+    bottom: calc(5 / 4.3 * 1vw);
+    left: calc(7 / 4.3 * 1vw);
+    column-gap: calc(9 / 4.3 * 1vw);
+  }
+
+  .policyCheck {
+    width: calc(20 / 4.3 * 1vw);
+    height: calc(20 / 4.3 * 1vw);
+  }
+
+  .policyCheck > img {
+    width: calc(11 / 4.3 * 1vw);
+    height: calc(10 / 4.3 * 1vw);
+  }
+
+  .policy > p {
+    width: calc(132 / 4.2 * 1vw);
+    font-size: calc(10 / 4.3 * 1vw);
+    line-height: calc(12 / 4.3 * 1vw);
+  }
+}

@@ -1,0 +1,204 @@
+.carouselWrapper {
+  width: 100%;
+  height: calc(501 / 12.8 * 1vw);
+  background: #ffffff1a;
+  border-radius: calc(16 / 12.8 * 1vw);
+  margin-top: calc(40 / 12.8 * 1vw);
+  position: relative;
+}
+
+.carousel {
+  width: calc(571 / 12.8 * 1vw);
+  height: calc(501 / 12.8 * 1vw);
+  padding: calc(36 / 12.8 * 1vw) calc(27 / 12.8 * 1vw) calc(26 / 12.8 * 1vw)
+    calc(32 / 12.8 * 1vw);
+  position: relative;
+}
+
+.carousel > h1 {
+  width: calc(829 / 12.8 * 1vw);
+  font-family: var(--text-fontHeading);
+  font-size: calc(64 / 12.8 * 1vw);
+  font-weight: 600;
+  line-height: calc(82 / 12.8 * 1vw);
+  color: #ffffff;
+  margin-bottom: calc(10 / 12.8 * 1vw);
+}
+
+.carousel2 > h1 {
+  width: calc(700 / 12.8 * 1vw);
+}
+
+.carousel3 > h1 {
+  width: 100%;
+}
+
+.goldBorderWrap {
+  width: max-content;
+  position: relative;
+}
+
+.goldBorderItem {
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 80%;
+  background: linear-gradient(105.41deg, #fdeb71 -123.73%, #f8d800 100%);
+}
+
+.carousel > p {
+  width: 100%;
+  font-family: var(--text-fontFamily);
+  font-size: calc(35 / 12.8 * 1vw);
+  font-weight: 300;
+  line-height: calc(49 / 12.8 * 1vw);
+  color: #ffffffb2;
+}
+
+.carousel1 > p {
+  width: calc(806 / 12.8 * 1vw);
+}
+
+.carousel2 > p {
+  width: calc(750 / 12.8 * 1vw);
+}
+
+.carousel3 > p {
+  width: calc(792 / 12.8 * 1vw);
+}
+
+.carousel4 > p {
+  width: calc(734 / 12.8 * 1vw);
+}
+
+.carousePhoto {
+  width: calc(203 / 12.8 * 1vw);
+  position: absolute;
+  right: calc(46 / 12.8 * 1vw);
+  bottom: calc(13 / 12.8 * 1vw);
+}
+
+.carousel2 > .carousePhoto {
+  width: calc(236 / 12.8 * 1vw);
+  right: calc(71 / 12.8 * 1vw);
+  bottom: calc(53 / 12.8 * 1vw);
+}
+
+.carousel3 > .carousePhoto {
+  width: calc(290 / 12.8 * 1vw);
+  right: calc(37 / 12.8 * 1vw);
+  bottom: calc(32 / 12.8 * 1vw);
+}
+
+.carousel4 > .carousePhoto {
+  width: calc(318 / 12.8 * 1vw);
+  right: calc(44 / 12.8 * 1vw);
+  bottom: calc(44 / 12.8 * 1vw);
+}
+
+/* slides */
+
+.slidesWrapper {
+  position: absolute;
+  top: calc(57 / 12.8 * 1vw);
+  right: calc(44 / 12.8 * 1vw);
+  z-index: 1000;
+}
+
+.slides {
+  width: calc(72 / 12.8 * 1vw);
+  height: calc(72 / 12.8 * 1vw);
+  position: relative;
+}
+
+.slides > img {
+  width: calc(33 / 12.8 * 1vw);
+  height: calc(33 / 12.8 * 1vw);
+  position: absolute;
+}
+
+.slides > img:nth-child(1) {
+  width: calc(18 / 12.8 * 1vw);
+  height: calc(33 / 12.8 * 1vw);
+  top: calc(19 / 12.8 * 1vw);
+  right: calc(27 / 12.8 * 1vw);
+}
+
+.slides > img:nth-child(2) {
+  top: 0;
+  left: 0;
+}
+
+.slides > img:nth-child(3) {
+  top: 0;
+  right: 0;
+}
+
+.slides > img:nth-child(4) {
+  bottom: 0;
+  right: 0;
+}
+
+.slides > img:nth-child(5) {
+  bottom: 0;
+  left: 0;
+}
+
+/* media section */
+
+@media only screen and (max-width: 430px) {
+  .carouselWrapper {
+    width: calc(370 / 4.3 * 1vw);
+    height: calc(162 / 4.3 * 1vw);
+    border-radius: calc(14 / 4.3 * 1vw);
+  }
+  .carousel {
+    width: calc(370 / 4.3 * 1vw);
+    height: calc(162 / 4.3 * 1vw);
+    padding: calc(20 / 4.3 * 1vw) calc(21 / 4.3 * 1vw) calc(23 / 4.3 * 1vw)
+      calc(23 / 4.3 * 1vw);
+    border-radius: calc(14 / 4.3 * 1vw);
+  }
+
+  .carousel > h1 {
+    width: 90% !important;
+    font-size: calc(20 / 4.3 * 1vw);
+    line-height: calc(27 / 4.3 * 1vw);
+    margin-bottom: calc(4.4 / 4.3 * 1vw);
+  }
+
+  .carousel > p {
+    width: calc(250 / 4.3 * 1vw) !important;
+    font-size: calc(12 / 4.3 * 1vw);
+    line-height: calc(15 / 4.3 * 1vw);
+  }
+
+  .carousel1 > p {
+    width: calc(240 / 4.3 * 1vw) !important;
+  }
+
+  .carousePhoto {
+    width: calc(80 / 4.3 * 1vw);
+    right: calc(10 / 4.3 * 1vw);
+    bottom: calc(5 / 4.3 * 1vw);
+  }
+
+  .carousel2 > .carousePhoto {
+    width: calc(90 / 4.3 * 1vw);
+    right: calc(15 / 4.3 * 1vw);
+    bottom: calc(5 / 4.3 * 1vw);
+  }
+
+  .carousel3 > .carousePhoto {
+    width: calc(100 / 4.3 * 1vw);
+    right: 0;
+    bottom: 0;
+  }
+
+  .carousel4 > .carousePhoto {
+    width: calc(120 / 4.3 * 1vw);
+    right: 0;
+    bottom: 0;
+  }
+}

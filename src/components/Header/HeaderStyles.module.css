@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  margin-top: calc(39 / 12.8 * 1vw);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* media section */
+
+@media only screen and (max-width: 430px) {
+  .header {
+    width: 100%;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    row-gap: calc(16 / 4.3 * 1vw);
+  }
+}

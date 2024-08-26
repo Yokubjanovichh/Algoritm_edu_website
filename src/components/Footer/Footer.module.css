@@ -1,0 +1,182 @@
+.footerWrapper {
+  width: 100%;
+  margin-top: calc(46 / 12.8 * 1vw);
+  padding-bottom: calc(30 / 12.8 * 1vw);
+}
+
+.footerTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerTopLeft {
+  display: flex;
+  align-items: center;
+  column-gap: calc(25 / 12.8 * 1vw);
+}
+
+.footerTopLeftItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: calc(4 / 12.8 * 1vw);
+}
+
+.footerTopLeftItem > a {
+  font-family: var(--text-fontFamily);
+  font-size: calc(12 / 12.8 * 1vw);
+  font-weight: 400;
+  line-height: calc(15 / 12.8 * 1vw);
+  color: #ffffffb2;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.footerTopLeftItem > a:hover {
+  color: #fbde23;
+}
+
+.cosial {
+  display: flex;
+  align-items: center;
+  column-gap: calc(5 / 12.8 * 1vw);
+}
+
+.cosial > a {
+  width: calc(30 / 12.8 * 1vw);
+  height: calc(30 / 12.8 * 1vw);
+  border-radius: calc(8 / 12.8 * 1vw);
+  border: 1px solid #ffffff0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #191919;
+  transition: all 0.2s ease;
+}
+
+.cosial > a:hover {
+  background-color: #000;
+}
+
+.cosial > a:nth-child(1) > img {
+  width: calc(10 / 12.8 * 1vw);
+}
+
+.cosial > a:nth-child(2) > img {
+  width: calc(16 / 12.8 * 1vw);
+}
+
+.cosial > a:nth-child(3) > img {
+  width: calc(8.3 / 12.8 * 1vw);
+}
+
+.cosial > a:nth-child(4) > img {
+  width: calc(16 / 12.8 * 1vw);
+}
+
+.footerBottom {
+  width: 100%;
+  margin-top: calc(33 / 12.8 * 1vw);
+  display: flex;
+  align-items: center;
+}
+
+.footerBottomLeft {
+  display: flex;
+  align-items: center;
+  column-gap: calc(5 / 12.8 * 1vw);
+}
+
+.footerBottomLeft > p,
+.footerBottomLeft > a {
+  font-family: var(--text-fontFamily);
+  font-size: calc(10 / 12.8 * 1vw);
+  font-weight: 400;
+  line-height: calc(12 / 12.8 * 1vw);
+  color: #ffffffb2;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.footerBottomLeft > a:hover {
+  color: #fbde23;
+}
+
+.footerBottom > .cosial {
+  display: none;
+}
+
+/* media section from 430px to 0 */
+
+@media only screen and (max-width: 430px) {
+  .footerWrapper {
+    width: 100%;
+    margin-top: calc(20.4 / 4.3 * 1vw);
+  }
+
+  .footerTop > .cosial {
+    display: none;
+  }
+
+  .footerTopLeft {
+    width: 100%;
+    column-gap: calc(15 / 4.3 * 1vw);
+  }
+
+  .footerTopLeftItem {
+    row-gap: calc(5 / 4.3 * 1vw);
+  }
+
+  .footerTopLeftItem > a {
+    font-size: calc(8 / 4.3 * 1vw);
+    line-height: calc(10 / 4.3 * 1vw);
+  }
+
+  .footerBottom {
+    width: 100%;
+    margin-top: calc(13 / 4.3 * 1vw);
+    column-gap: calc(105 / 4.3 * 1vw);
+  }
+
+  .footerBottom > .cosial {
+    display: flex;
+  }
+
+  .footerBottomLeft {
+    column-gap: calc(3 / 4.3 * 1vw);
+  }
+
+  .footerBottomLeft > p,
+  .footerBottomLeft > a {
+    font-size: calc(6 / 4.3 * 1vw);
+    line-height: calc(7 / 4.3 * 1vw);
+  }
+
+  .cosial {
+    column-gap: calc(3 / 4.3 * 1vw);
+  }
+
+  .cosial > a {
+    width: calc(15.3 / 4.3 * 1vw);
+    height: calc(15.3 / 4.3 * 1vw);
+    border-radius: calc(5 / 4.3 * 1vw);
+  }
+
+  .cosial > a:nth-child(1) > img {
+    width: calc(6.7 / 4.3 * 1vw);
+  }
+
+  .cosial > a:nth-child(2) > img {
+    width: calc(8.25 / 4.3 * 1vw);
+  }
+
+  .cosial > a:nth-child(3) > img {
+    width: calc(4.25 / 4.3 * 1vw);
+  }
+
+  .cosial > a:nth-child(4) > img {
+    width: calc(8.2 / 4.3 * 1vw);
+  }
+}

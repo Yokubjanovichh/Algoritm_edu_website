@@ -1,0 +1,48 @@
+/* inter fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* NOHEMI */
+
+@font-face {
+  font-family: Nohemi;
+  src: url(./assets/fonts/NOHEMI/Nohemi-Medium-BF6438cc57ddecd.woff);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Nohemi;
+  src: url(./assets/fonts/NOHEMI/Nohemi-SemiBold-BF6438cc57db2ff.woff);
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  position: relative;
+}
+
+:root {
+  --btn-color: #f8d800;
+  --text-fontFamily: Inter, sans-serif;
+  --text-fontHeading: Nohemi, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  background-color: #000000;
+  padding: 0 calc(70 / 12.8 * 1vw);
+}
