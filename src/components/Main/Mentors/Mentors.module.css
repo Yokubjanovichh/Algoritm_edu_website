@@ -100,12 +100,7 @@
   filter: grayscale(0);
 }
 
-.mentor:nth-child(1) > img {
-  filter: grayscale(0);
-}
-
-.mentor:hover > .mentorText,
-.mentor:nth-child(1) > .mentorText {
+.mentor:hover > .mentorText {
   background: url(../../../assets/svg/mentorBgHover.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -113,15 +108,13 @@
 }
 
 .mentor:hover .ceoName,
-.mentor:hover .mentorHeader > h1,
-.mentor:nth-child(1) .ceoName {
+.mentor:hover .mentorHeader > h1 {
   color: #000000;
 }
 
 .mentor:hover .ceoDesc,
 .mentor:hover .mentorExper,
-.mentor:hover .mentorDesc,
-.mentor:nth-child(1) .ceoDesc {
+.mentor:hover .mentorDesc {
   color: #726400;
 }
 
