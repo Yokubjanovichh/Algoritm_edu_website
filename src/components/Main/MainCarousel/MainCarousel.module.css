@@ -103,7 +103,7 @@
   position: absolute;
   top: calc(57 / 12.8 * 1vw);
   right: calc(44 / 12.8 * 1vw);
-  z-index: 1000;
+  z-index: 100;
 }
 
 .slides {

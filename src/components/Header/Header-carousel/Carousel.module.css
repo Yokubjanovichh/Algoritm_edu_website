@@ -103,7 +103,7 @@
   position: absolute;
   bottom: calc(26 / 12.8 * 1vw);
   left: calc(32 / 12.8 * 1vw);
-  z-index: 1000;
+  z-index: 100;
 }
 
 .slides > img {
