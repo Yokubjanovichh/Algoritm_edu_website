@@ -39,7 +39,7 @@
 }
 
 .goldBorderItem {
-  height: 3px;
+  height: calc(3 / 12.8 * 1vw);
   position: absolute;
   bottom: 0;
   left: 0;
