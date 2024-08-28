@@ -103,7 +103,7 @@
   position: absolute;
   top: calc(57 / 12.8 * 1vw);
   right: calc(44 / 12.8 * 1vw);
-  z-index: 100;
+  z-index: 400;
 }
 
 .slides {
@@ -200,5 +200,9 @@
     width: calc(120 / 4.3 * 1vw);
     right: 0;
     bottom: 0;
+  }
+
+  .slidesWrapper {
+    z-index: 400;
   }
 }
