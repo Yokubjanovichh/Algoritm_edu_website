@@ -27,6 +27,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: calc(20 / 12.8 * 1vw);
+  justify-content: space-between;
   margin-top: calc(24 / 12.8 * 1vw);
 }
 

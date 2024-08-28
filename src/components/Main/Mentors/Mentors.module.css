@@ -16,7 +16,8 @@
   display: flex;
   align-items: center;
   gap: calc(20 / 12.8 * 1vw);
-  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: calc(20 / 12.8 * 1vw);
 }
 
