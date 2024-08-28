@@ -3,7 +3,7 @@
   margin-top: calc(39 / 12.8 * 1vw);
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  color: calc(20 / 12.8 * 1vw);
 }
 
 /* media section */
