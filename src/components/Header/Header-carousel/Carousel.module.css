@@ -36,11 +36,11 @@
 }
 
 .goldBorderItem {
-  height: 2px;
+  height: calc(2 / 12.8 * 1vw);
   position: absolute;
   bottom: 0;
   left: 0;
-  border-radius: 80%;
+  border-radius: 50%;
   background: linear-gradient(105.41deg, #fdeb71 -123.73%, #f8d800 100%);
 }
 
