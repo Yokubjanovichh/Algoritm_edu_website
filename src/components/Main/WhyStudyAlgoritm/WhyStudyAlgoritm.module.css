@@ -18,7 +18,8 @@
 
 .boxes {
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: calc(17 / 12.8 * 1vw) calc(20 / 12.8 * 1vw);
   flex-wrap: wrap;
 }
@@ -110,6 +111,7 @@
   }
 
   .boxes {
+    grid-template-columns: 1fr;
     row-gap: calc(10 / 4.3 * 1vw);
   }
 

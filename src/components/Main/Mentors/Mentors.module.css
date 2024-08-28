@@ -13,11 +13,9 @@
 
 .mentorsWrapper {
   width: 100%;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: calc(20 / 12.8 * 1vw);
-  justify-content: space-between;
-  flex-wrap: wrap;
   margin-top: calc(20 / 12.8 * 1vw);
 }
 
@@ -196,7 +194,7 @@
   }
 
   .mentorsWrapper {
-    flex-wrap: wrap;
+    grid-template-columns: 1fr;
     row-gap: calc(12.07 / 4.3 * 1vw);
   }
 
