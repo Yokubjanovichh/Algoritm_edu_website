@@ -115,7 +115,8 @@
 
 @media only screen and (max-width: 430px) {
   .goldBorderItem {
-    height: calc(1.5 / 4.3 * 1vw);
+    border-radius: 50%;
+    height: calc(2 / 4.3 * 1vw) !important;
   }
   .carouselWrapper {
     width: calc(370 / 4.3 * 1vw);
