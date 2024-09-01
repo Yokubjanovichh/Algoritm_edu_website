@@ -5,6 +5,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-left: calc(70 / 12.8 * 1vw);
+  padding-right: calc(70 / 12.8 * 1vw);
 }
 
 /* media section from 430px to 0 */

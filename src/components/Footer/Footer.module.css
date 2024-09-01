@@ -2,6 +2,8 @@
   width: 100%;
   margin-top: calc(46 / 12.8 * 1vw);
   padding-bottom: calc(30 / 12.8 * 1vw);
+  padding-left: calc(70 / 12.8 * 1vw);
+  padding-right: calc(70 / 12.8 * 1vw);
 }
 
 .footerTop {
