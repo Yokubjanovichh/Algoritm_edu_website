@@ -7,7 +7,8 @@
   position: sticky;
   top: 0px;
   z-index: 1000;
-  backdrop-filter: blur(25px);
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(35px);
   padding-left: calc(70 / 12.8 * 1vw);
   padding-right: calc(70 / 12.8 * 1vw);
 }
