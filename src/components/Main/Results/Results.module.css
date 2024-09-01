@@ -158,7 +158,7 @@
   .resultsWrapper {
     flex-wrap: wrap;
     column-gap: calc(20 / 4.3 * 1vw);
-    row-gap: calc(20 / 4.3 * 1vw);
+    row-gap: calc(16 / 4.3 * 1vw);
     margin-top: calc(12 / 4.3 * 1vw);
   }
 
