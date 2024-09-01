@@ -61,10 +61,10 @@
 .findJob {
   width: calc(284 / 12.8 * 1vw);
   height: calc(298 / 12.8 * 1vw);
-  background: #191919;
+  background: #1a1919;
   padding: calc(36 / 12.8 * 1vw) calc(9 / 12.8 * 1vw) calc(31 / 12.8 * 1vw)
     calc(32 / 12.8 * 1vw);
-  border-radius: calc(17 / 12.8 * 1vw);
+  border-radius: calc(16 / 12.8 * 1vw);
 }
 
 .findJob > img {
@@ -157,13 +157,13 @@
 
   .resultsWrapper {
     flex-wrap: wrap;
-    column-gap: calc(20 / 4.3 * 1vw);
+    column-gap: calc(16 / 4.3 * 1vw);
     row-gap: calc(16 / 4.3 * 1vw);
     margin-top: calc(12 / 4.3 * 1vw);
   }
 
   .graduated {
-    width: calc(173 / 4.3 * 1vw);
+    width: calc(176 / 4.3 * 1vw);
     height: calc(193 / 4.3 * 1vw);
     padding: calc(23 / 4.3 * 1vw) calc(17 / 4.3 * 1vw) calc(16 / 4.3 * 1vw)
       calc(20 / 4.3 * 1vw);
@@ -189,6 +189,7 @@
     width: calc(184 / 4.3 * 1vw);
     height: calc(193 / 4.3 * 1vw);
     padding: calc(17 / 4.3 * 1vw) calc(6 / 4.3 * 1vw) 0 calc(20 / 4.3 * 1vw);
+    border-radius: calc(12 / 4.3 * 1vw);
   }
 
   .findJob > img {
