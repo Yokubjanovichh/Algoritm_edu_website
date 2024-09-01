@@ -77,8 +77,8 @@
   }
 
   .navbarWrapper.scrolled {
-    padding-top: calc(7 / 4.3 * 1vw);
-    padding-bottom: calc(5 / 4.3 * 1vw);
+    padding-top: calc(7 / 4.3 * 1vw) !important;
+    padding-bottom: calc(10 / 4.3 * 1vw) !important;
   }
 
   .navbarWrapper.scrolled .mobile {
