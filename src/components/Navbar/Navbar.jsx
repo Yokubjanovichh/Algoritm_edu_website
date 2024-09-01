@@ -6,8 +6,7 @@ import styles from "./Navbar.module.css";
 export default function Navbar() {
   return (
     <div
-      className={`${styles.navbarContainer} ${
-        scrolled ? styles.navbarContainerScroll : ""
+      className={`${styles.navbarContainer} 
       }`}
     >
       <div className={`${styles.navbarWrapper} `}>
