@@ -32,7 +32,7 @@
 .box {
   width: calc(560 / 12.8 * 1vw);
   height: calc(183 / 12.8 * 1vw);
-  background: #ffffff1a;
+  background: #1a1919;
   border-radius: calc(16 / 12.8 * 1vw);
   display: flex;
   align-items: center;

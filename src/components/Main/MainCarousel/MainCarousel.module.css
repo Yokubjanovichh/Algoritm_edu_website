@@ -1,7 +1,7 @@
 .carouselWrapper {
   width: 100%;
   height: calc(501 / 12.8 * 1vw);
-  background: #ffffff1a;
+  background: #1a1919;
   border-radius: calc(16 / 12.8 * 1vw);
   margin-top: calc(40 / 12.8 * 1vw);
   position: relative;

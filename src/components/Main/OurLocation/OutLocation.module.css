@@ -51,7 +51,7 @@
 .addressItem {
   width: calc(561 / 12.8 * 1vw);
   height: calc(173 / 12.8 * 1vw);
-  background: #ffffff1a;
+  background: #1a1919;
   border-radius: calc(16 / 12.8 * 1vw);
   padding: calc(33 / 12.8 * 1vw) calc(20 / 12.8 * 1vw) 0 calc(29 / 12.8 * 1vw);
 }

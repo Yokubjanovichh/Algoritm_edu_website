@@ -28,7 +28,7 @@
   width: calc(560 / 12.8 * 1vw);
   height: calc(154 / 12.8 * 1vw);
   padding: calc(28 / 12.8 * 1vw) calc(28 / 12.8 * 1vw) 0 calc(32 / 12.8 * 1vw);
-  background-color: #ffffff1a;
+  background-color: #1a1919;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
