@@ -78,6 +78,7 @@
 
   .navbarWrapper.scrolled {
     padding-top: calc(7 / 4.3 * 1vw);
+    padding-bottom: calc(5 / 4.3 * 1vw);
   }
 
   .navbarWrapper.scrolled .mobile {
