@@ -81,6 +81,7 @@
   margin-top: calc(33 / 12.8 * 1vw);
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .footerBottomLeft {
@@ -91,6 +92,7 @@
 
 .footerBottomLeft > p,
 .footerBottomLeft > a {
+  width: max-content;
   font-family: var(--text-fontFamily);
   font-size: calc(10 / 12.8 * 1vw);
   font-weight: 400;

@@ -14,6 +14,17 @@ export default function ContactUs() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!name.trim()) {
+      EnSn("Ismingizni kiritishingiz shart", { variant: "error" });
+      return;
+    }
+
+    if (!phoneNumber || phoneNumber.trim().length !== 9) {
+      EnSn("Telefon raqami to'g'ri kiritilmagan", { variant: "error" });
+      return;
+    }
+
     setDisable(true);
 
     const requestBody = {
@@ -62,7 +73,6 @@ export default function ContactUs() {
           type="text"
           placeholder="Ismingiz"
           name="Ismi:"
-          required
           onChange={(e) => setName(e.target.value)}
           value={name}
           autoComplete="off"
@@ -75,7 +85,6 @@ export default function ContactUs() {
           name="Phone"
           value={phoneNumber}
           onValueChange={(values) => setPhoneNumber(values.value)}
-          required
           className={styles.loginInputPhone}
           autoComplete="off"
           disabled={disabled}

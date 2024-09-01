@@ -76,7 +76,7 @@ export default function Footer() {
 
           <div className={styles.footerTopLeftItem}>
             <a href="Tel: +998911771880">+998 91-177-18-80</a>
-            <a href="Tel: +99832771880">+998 93-277-18-80</a>
+            <a href="Tel: +998932771880">+998 93-277-18-80</a>
           </div>
         </div>
         <div className={styles.cosial}>

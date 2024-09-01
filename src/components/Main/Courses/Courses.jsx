@@ -1,11 +1,11 @@
 import React from "react";
 import star from "../../../assets/svg/star.svg";
-import courses1 from "../../../assets/img/courses-1.png";
-import courses2 from "../../../assets/img/courses-2.png";
-import courses3 from "../../../assets/img/courses-3.png";
-import courses4 from "../../../assets/img/courses-4.png";
-import courses5 from "../../../assets/img/courses-5.png";
-import courses6 from "../../../assets/img/courses-6.png";
+import courses1 from "../../../assets/img/courses-1.webp";
+import courses2 from "../../../assets/img/courses-2.webp";
+import courses3 from "../../../assets/img/courses-3.webp";
+import courses4 from "../../../assets/img/courses-4.webp";
+import courses5 from "../../../assets/img/courses-5.webp";
+import courses6 from "../../../assets/img/courses-6.webp";
 import styles from "./Courses.module.css";
 
 export default function Courses() {

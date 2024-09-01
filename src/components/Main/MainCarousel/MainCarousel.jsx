@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
-import carousePhoto1 from "../../../assets/img/carousePhoto1.png";
-import carousePhoto2 from "../../../assets/img/carousePhoto2.png";
-import carousePhoto3 from "../../../assets/img/carousePhoto3.png";
-import carousePhoto4 from "../../../assets/img/carousePhoto4.png";
+import carousePhoto1 from "../../../assets/img/carousePhoto1.webp";
+import carousePhoto2 from "../../../assets/img/carousePhoto2.webp";
+import carousePhoto3 from "../../../assets/img/carousePhoto3.webp";
+import carousePhoto4 from "../../../assets/img/carousePhoto4.webp";
 import carouselStar from "../../../assets/svg/carouselStar.svg";
 import slideFull1 from "../../../assets/svg/slideFull1.svg";
 import slideEmpty1 from "../../../assets/svg/slideEmpty1.svg";

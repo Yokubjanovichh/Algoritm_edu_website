@@ -1,16 +1,16 @@
 import React from "react";
-import ShavkatAka from "../../../assets/img/JannatimAkam.png";
-import JahongirAka from "../../../assets/img/JahongirAka.png";
-import AzimjonAka from "../../../assets/img/AzimjonAka.png";
-import Uzim from "../../../assets/img/uzim.png";
-import DilmurodAka from "../../../assets/img/DilmurodAka.png";
-import Abdulaziz from "../../../assets/img/Abdulaziz.png";
-import Ozodbek from "../../../assets/img/Ozodbek.png";
-import Sancho from "../../../assets/img/Sancho.png";
-import Utkir from "../../../assets/img/utkir.png";
-import Dido from "../../../assets/img/Dido.png";
-import Jasmina from "../../../assets/img/Jasmina.png";
-import Itkids from "../../../assets/img/ItKids.png";
+import ShavkatAka from "../../../assets/img/JannatimAkam.webp";
+import JahongirAka from "../../../assets/img/JahongirAka.webp";
+import AzimjonAka from "../../../assets/img/AzimjonAka.webp";
+import Uzim from "../../../assets/img/uzim.webp";
+import DilmurodAka from "../../../assets/img/DilmurodAka.webp";
+import Abdulaziz from "../../../assets/img/Abdulaziz.webp";
+import Ozodbek from "../../../assets/img/Ozodbek.webp";
+import Sancho from "../../../assets/img/Sancho.webp";
+import Utkir from "../../../assets/img/utkir.webp";
+import Dido from "../../../assets/img/Dido.webp";
+import Jasmina from "../../../assets/img/Jasmina.webp";
+import Itkids from "../../../assets/img/ItKids.webp";
 // icons
 import html from "../../../assets/svg/html.svg";
 import css from "../../../assets/svg/css.svg";
@@ -32,6 +32,8 @@ import scratch from "../../../assets/svg/scratch.svg";
 import xd from "../../../assets/svg/xd.svg";
 import xd2 from "../../../assets/svg/xd2.svg";
 import ae from "../../../assets/svg/ae.svg";
+import internet from "../../../assets/svg/internet.svg";
+import cplus from "../../../assets/svg/cplus.svg";
 
 import styles from "./Mentors.module.css";
 
@@ -118,9 +120,10 @@ export default function Mentors() {
               </p>
             </div>
             <div className={styles.technologies}>
+              <img className={styles.database} src={cplus} alt="cplus" />
               <img className={styles.phyton} src={phyton} alt="phyton" />
-              <img className={styles.security} src={phyton2} alt="phyton2" />
-              <img className={styles.database} src={database} alt="database" />
+              <img className={styles.security} src={internet} alt="internet" />
+              <img className={styles.phyton} src={database} alt="database" />
             </div>
           </div>
         </div>
@@ -245,7 +248,7 @@ export default function Mentors() {
               <img className={styles.js} src={js} alt="js" />
               <img className={styles.react} src={react} alt="react" />
               <img className={styles.java} src={java} alt="java" />
-              <img className={styles.database} src={database} alt="database" />
+              <img className={styles.phyton} src={database} alt="database" />
             </div>
           </div>
         </div>

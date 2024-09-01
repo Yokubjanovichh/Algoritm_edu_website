@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import slideFull from "../../../assets/svg/slideFull.svg";
 import slideEmpty from "../../../assets/svg/slideEmpty.svg";
-import carousePhoto1 from "../../../assets/img/carousePhoto1.png";
-import carousePhoto2 from "../../../assets/img/carousePhoto2.png";
-import carousePhoto3 from "../../../assets/img/carousePhoto3.png";
-import carousePhoto4 from "../../../assets/img/carousePhoto4.png";
+import carousePhoto1 from "../../../assets/img/carousePhoto1.webp";
+import carousePhoto2 from "../../../assets/img/carousePhoto2.webp";
+import carousePhoto3 from "../../../assets/img/carousePhoto3.webp";
+import carousePhoto4 from "../../../assets/img/carousePhoto4.webp";
 import styles from "./Carousel.module.css";
 
 export default function Carousel() {

@@ -116,7 +116,7 @@
   }
 
   .box {
-    width: calc(370 / 4.3 * 1vw);
+    width: calc(379 / 4.3 * 1vw);
     height: calc(119 / 4.3 * 1vw);
     padding: calc(20 / 4.3 * 1vw) calc(20 / 4.3 * 1vw) 0 calc(20 / 4.3 * 1vw);
     border-radius: calc(16 / 4.3 * 1vw);
