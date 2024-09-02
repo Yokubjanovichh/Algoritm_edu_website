@@ -13,10 +13,10 @@
   line-height: calc(20 / 12.8 * 1vw);
   color: #ffffff80;
   transition: all 0.2s linear;
+  cursor: pointer;
 }
 
-.navbarNavigation > a:hover,
-.active {
+.navbarNavigation .active {
   background: var(--btn-color);
   color: #000000 !important;
 }
