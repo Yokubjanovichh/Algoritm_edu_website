@@ -4,8 +4,8 @@ import { enqueueSnackbar as EnSn } from "notistack";
 import star from "../../../assets/svg/star.svg";
 import styles from "./MainContactUs.module.css";
 
-const BOT_TOKEN = "7413687047:AAH_Ta0SPTQlARsmbCALsjt4S35wXArdp_Q";
-const YOUR_CHAT_ID = "-4520159921";
+const BOT_TOKEN = "7413687047:AAF5Q6ypa_IX5jP709RyQ_q82UQkJy4lmmo";
+const YOUR_CHAT_ID = "-1002431752824";
 
 export default function MainContactUs() {
   const [phoneNumber, setPhoneNumber] = useState("");
