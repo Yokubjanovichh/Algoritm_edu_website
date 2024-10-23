@@ -1,26 +1,15 @@
 import React from "react";
-import { SnackbarProvider } from "notistack";
-import Navbar from "./components/Navbar/Navbar";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import Footer from "./components/Footer/Footer";
-// auto carousel css links
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-// auto carousel css links
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import MainPage from "./pages/MainPage";
+import Certificates from "./pages/Certificates/Certificates";
 
 export default function App() {
   return (
-    <SnackbarProvider
-      anchorOrigin={{
-        vertical: "top",
-        horizontal: "center",
-      }}
-    >
-      <Navbar />
-      <Header />
-      <Main />
-      <Footer />
-    </SnackbarProvider>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/certificates" element={<Certificates />} />
+      </Routes>
+    </Router>
   );
 }
