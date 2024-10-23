@@ -1,0 +1,128 @@
+.wrapper {
+  font-family: var(--text-fontHeading);
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(300px);
+  padding: calc(20 / 14.4 * 1vw);
+}
+
+.navbar > a > img {
+  width: calc(250 / 14.4 * 1vw);
+}
+
+.title {
+  width: 100%;
+  font-size: calc(30 / 14.4 * 1vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: calc(30 / 14.4 * 1vw);
+}
+
+.search {
+  width: calc(500 / 14.4 * 1vw);
+  padding: calc(10 / 14.4 * 1vw);
+  font-size: calc(20 / 14.4 * 1vw);
+  border-radius: calc(10 / 14.4 * 1vw);
+  border: none;
+  outline: none;
+}
+
+tr,
+th,
+td {
+  border: calc(1 / 14.4 * 1vw) solid #fff;
+}
+
+table {
+  width: 100%;
+  margin-top: calc(50 / 14.4 * 1vw);
+  color: #fff;
+  border-collapse: collapse;
+}
+table > thead {
+  position: sticky;
+  top: calc(87 / 14.4 * 1vw);
+  backdrop-filter: blur(300px);
+}
+
+table > thead > tr > th {
+  font-size: calc(20 / 14.4 * 1vw);
+  padding: calc(10 / 14.4 * 1vw);
+}
+
+table > tbody > tr > td {
+  font-size: calc(18 / 14.4 * 1vw);
+  padding: calc(10 / 14.4 * 1vw);
+  color: #fff;
+}
+
+table > tbody > tr > td:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table > thead > tr,
+table > tbody > tr {
+  display: grid;
+  grid-template-columns: calc(50 / 14.4 * 1vw) 1fr 0.4fr;
+}
+
+.undefined {
+  width: 100%;
+  text-align: center;
+  padding: calc(10 / 14.4 * 1vw);
+  font-size: calc(20 / 14.4 * 1vw);
+}
+
+/* media */
+
+@media only screen and (max-width: 430px) {
+  .navbar {
+    padding: calc(10 / 4.3 * 1vw);
+  }
+  .navbar > a > img {
+    width: calc(120 / 4.3 * 1vw);
+  }
+  .title {
+    font-size: calc(15 / 4.3 * 1vw);
+    margin: calc(10 / 4.3 * 1vw);
+    line-height: calc(20 / 4.3 * 1vw);
+  }
+
+  .search {
+    width: calc(170 / 4.3 * 1vw);
+    padding: calc(5 / 4.3 * 1vw);
+    font-size: calc(8 / 4.3 * 1vw);
+    border-radius: calc(3 / 4.3 * 1vw);
+  }
+  table > thead {
+    top: calc(40 / 4.3 * 1vw);
+  }
+
+  table > thead > tr > th {
+    font-size: calc(10 / 4.3 * 1vw);
+    padding: calc(5 / 4.3 * 1vw);
+  }
+
+  table > tbody > tr > td {
+    font-size: calc(8 / 4.3 * 1vw);
+    padding: calc(5 / 4.3 * 1vw);
+  }
+  table > thead > tr,
+  table > tbody > tr {
+    grid-template-columns: calc(20 / 4.3 * 1vw) 1fr 0.4fr;
+  }
+  .undefined {
+    padding: calc(5 / 4.3 * 1vw);
+    font-size: calc(10 / 4.3 * 1vw);
+  }
+}

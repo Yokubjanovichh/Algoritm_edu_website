@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import NavbarNavigation from "./NavbarNavigation/NavbarNavigation";
 import AlgoritmLogo from "../../assets/svg/algoritm-logo.svg";
 import styles from "./Navbar.module.css";
@@ -37,7 +38,7 @@ export default function Navbar() {
           <div className={styles.desktop}>
             <NavbarNavigation />
           </div>
-          <a href="tel:+998932771880">+998 93 277 18 80</a>
+          <Link to="/certificates">Sertifikatlar</Link>
         </div>
       </div>
 
