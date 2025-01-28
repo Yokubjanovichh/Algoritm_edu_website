@@ -14,6 +14,7 @@ export default function ContactUs() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    /*
 
     if (!name.trim()) {
       EnSn("Ismingizni kiritishingiz shart", { variant: "error" });
@@ -55,6 +56,7 @@ export default function ContactUs() {
         EnSn("Xatolik yuz berdi", { variant: "error" });
         setDisable(false);
       });
+    */
   };
 
   return (
