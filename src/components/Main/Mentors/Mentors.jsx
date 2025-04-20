@@ -82,7 +82,7 @@ export default function Mentors() {
           </div>
         </div>
 
-        <div className={styles.mentor}>
+        {/* <div className={styles.mentor}>
           <img src={Uzim} alt="yokubjanovich" />
           <div className={`${styles.mentorText} ${styles.mentorBox}`}>
             <div className={styles.mentorHeader}>
@@ -102,9 +102,9 @@ export default function Mentors() {
               <img className={styles.react} src={react} alt="react" />
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className={styles.mentor}>
+        {/* <div className={styles.mentor}>
           <img src={Sancho} alt="Sancho" />
           <div className={`${styles.mentorText} ${styles.mentorBox}`}>
             <div className={styles.mentorHeader}>
@@ -126,9 +126,9 @@ export default function Mentors() {
               <img className={styles.phyton} src={database} alt="database" />
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className={styles.mentor}>
+        {/* <div className={styles.mentor}>
           <img src={Ozodbek} alt="Ozodbek" />
           <div className={`${styles.mentorText} ${styles.mentorBox}`}>
             <div className={styles.mentorHeader}>
@@ -147,7 +147,7 @@ export default function Mentors() {
               <img className={styles.ai} src={ai} alt="ai" />
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.mentor}>
           <img src={Dido} alt="Dido" />
@@ -228,7 +228,7 @@ export default function Mentors() {
           </div>
         </div>
 
-        <div className={styles.mentor}>
+        {/* <div className={styles.mentor}>
           <img src={DilmurodAka} alt="DilmurodAka" />
           <div className={`${styles.mentorText} ${styles.mentorBox}`}>
             <div className={styles.mentorHeader}>
@@ -251,7 +251,7 @@ export default function Mentors() {
               <img className={styles.phyton} src={database} alt="database" />
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.mentor}>
           <img src={Abdulaziz} alt="Abdulaziz" />
