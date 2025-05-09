@@ -1,16 +1,12 @@
 import React from "react";
 import ShavkatAka from "../../../assets/img/JannatimAkam.webp";
-import JahongirAka from "../../../assets/img/JahongirAka.webp";
 import AzimjonAka from "../../../assets/img/AzimjonAka.webp";
-import Uzim from "../../../assets/img/uzim.webp";
-import DilmurodAka from "../../../assets/img/DilmurodAka.webp";
 import Abdulaziz from "../../../assets/img/Abdulaziz.webp";
-import Ozodbek from "../../../assets/img/Ozodbek.webp";
-import Sancho from "../../../assets/img/Sancho.webp";
-import Utkir from "../../../assets/img/utkir.webp";
 import Dido from "../../../assets/img/Dido.webp";
 import Jasmina from "../../../assets/img/Jasmina.webp";
 import Itkids from "../../../assets/img/ItKids.webp";
+import Azamjon from "../../../assets/img/azamjon.webp";
+import Hayotbek from "../../../assets/img/hayotbek.webp";
 // icons
 import html from "../../../assets/svg/html.svg";
 import css from "../../../assets/svg/css.svg";
@@ -49,15 +45,6 @@ export default function Mentors() {
             <p className={styles.ceoDesc}>Founder Algoritm Ta’lim</p>
           </div>
         </div>
-
-        <div className={styles.mentor}>
-          <img src={JahongirAka} alt="JahongirAka" />
-          <div className={styles.mentorText}>
-            <h1 className={styles.ceoName}>Jahongir Yusupov</h1>
-            <p className={styles.ceoDesc}>Proyekt Menejer</p>
-          </div>
-        </div>
-
         <div className={styles.mentor}>
           <img src={AzimjonAka} alt="AzimjonAka" />
           <div className={`${styles.mentorText} ${styles.mentorBox}`}>
@@ -81,74 +68,29 @@ export default function Mentors() {
             </div>
           </div>
         </div>
-
-        {/* <div className={styles.mentor}>
-          <img src={Uzim} alt="yokubjanovich" />
+        <div className={styles.mentor}>
+          <img src={Hayotbek} alt="Turg'unov Hayotbek" />
           <div className={`${styles.mentorText} ${styles.mentorBox}`}>
             <div className={styles.mentorHeader}>
-              <h1>Yuldashev Murodulla</h1>
+              <h1>Hayotbek Turg'unov</h1>
               <p className={styles.mentorExper}>
                 2+ yillik tajribaga ega Front-end dasturchi.
               </p>
               <p className={styles.mentorDesc}>
-                Frontend — bu veb-saytning foydalanuvchi ko'radigan qismi. U
-                saytning dizayni va ishlashini ta'minlaydi.
+                Frontend — bu veb-saytning siz ko‘radigan qismi, masalan,
+                tugmalar, rasmlar va matnlar. U saytni chiroyli va qulay
+                ishlashini ta’minlaydi.
               </p>
             </div>
             <div className={styles.technologies}>
               <img className={styles.html} src={html} alt="html" />
               <img className={styles.css} src={css} alt="css" />
+              <img className={styles.boostrap} src={boostrap} alt="boostrap" />
               <img className={styles.js} src={js} alt="js" />
               <img className={styles.react} src={react} alt="react" />
             </div>
           </div>
-        </div> */}
-
-        {/* <div className={styles.mentor}>
-          <img src={Sancho} alt="Sancho" />
-          <div className={`${styles.mentorText} ${styles.mentorBox}`}>
-            <div className={styles.mentorHeader}>
-              <h1>Xudoyorov Sanjar</h1>
-              <p className={styles.mentorExper}>
-                3+ yillik tajribaga ega Kiberxavfsizlik dasturchi.
-              </p>
-              <p className={styles.mentorDesc}>
-                Kiberxavfsizlik — bu kompyuter tizimlari va ma'lumotlarni
-                hujumlardan himoya qilish jarayonidir. U kirish nazorati,
-                shifrlash va xavfsizlik tahlilini o'z ichiga olib, cyber
-                hujumlardan saqlanishni maqsad qiladi.
-              </p>
-            </div>
-            <div className={styles.technologies}>
-              <img className={styles.database} src={cplus} alt="cplus" />
-              <img className={styles.phyton} src={phyton} alt="phyton" />
-              <img className={styles.security} src={internet} alt="internet" />
-              <img className={styles.phyton} src={database} alt="database" />
-            </div>
-          </div>
-        </div> */}
-
-        {/* <div className={styles.mentor}>
-          <img src={Ozodbek} alt="Ozodbek" />
-          <div className={`${styles.mentorText} ${styles.mentorBox}`}>
-            <div className={styles.mentorHeader}>
-              <h1>Ozodbek Akramov</h1>
-              <p className={styles.mentorExper}>
-                2+ yillik tajribaga ega suniy intelekt dasturchi.
-              </p>
-              <p className={styles.mentorDesc}>
-                Sun'iy intellekt dasturchi — bu sun'iy intellekt tizimlarini
-                ishlab chiqadigan mutaxassis. U mashinalarga bilim olish, tilni
-                tushunish va ko'rish qobiliyatlarini beradi.
-              </p>
-            </div>
-            <div className={styles.technologies}>
-              <img className={styles.phyton} src={phyton} alt="phyton" />
-              <img className={styles.ai} src={ai} alt="ai" />
-            </div>
-          </div>
-        </div> */}
-
+        </div>
         <div className={styles.mentor}>
           <img src={Dido} alt="Dido" />
           <div className={`${styles.mentorText} ${styles.mentorBox}`}>
@@ -173,34 +115,30 @@ export default function Mentors() {
             </div>
           </div>
         </div>
-
         <div className={styles.mentor}>
-          <img src={Utkir} alt="Utkir" />
+          <img src={Abdulaziz} alt="Ikromov Abdulaziz" />
           <div className={`${styles.mentorText} ${styles.mentorBox}`}>
             <div className={styles.mentorHeader}>
-              <h1>Utkir Giyosov</h1>
+              <h1>Ikromov Abdulaziz</h1>
               <p className={styles.mentorExper}>
-                4+ yillik tajribaga ega Grafik Dizayner
+                2+ yillik tajribaga ega Backend dasturchi.
               </p>
               <p className={styles.mentorDesc}>
-                Grafik dizayner — vizual kommunikatsiya uchun grafik
-                tasvirlarni, logotiplarni, reklamalarni va boshqa dizayn
-                elementlarini yaratadigan mutaxassisdir. Grafik dizaynerlar
-                brend identifikatsiyasi, marketing materiallari, veb-sayt
-                dizayni va boshqa ko'plab sohalarda ishlaydi.
+                Frontend texnologiyalari veb-saytlarning va veb-ilovalarining
+                foydalanuvchi interfeysini yaratishda ishlatiladigan
+                texnologiyalardir.
               </p>
             </div>
             <div className={styles.technologies}>
-              <img className={styles.photo} src={photoshop} alt="photoshop" />
-              <img className={styles.photo} src={ilustrator} alt="ilustrator" />
-              <img className={styles.photo} src={xd} alt="xd" />
-              <img className={styles.photo} src={figma} alt="figma" />
-              <img className={styles.photo} src={xd2} alt="xd2" />
-              <img className={styles.photo} src={ae} alt="ae" />
+              <img className={styles.html} src={html} alt="html" />
+              <img className={styles.css} src={css} alt="css" />
+              <img className={styles.boostrap} src={boostrap} alt="boostrap" />
+              <img className={styles.js} src={js} alt="js" />
+              <img className={styles.database} src={nodejs} alt="nodejs" />
+              <img className={styles.database} src={mongodb} alt="mongodb" />
             </div>
           </div>
         </div>
-
         <div className={styles.mentor}>
           <img src={Jasmina} alt="Jasmina" />
           <div className={`${styles.mentorText} ${styles.mentorBox}`}>
@@ -227,14 +165,13 @@ export default function Mentors() {
             </div>
           </div>
         </div>
-
-        {/* <div className={styles.mentor}>
-          <img src={DilmurodAka} alt="DilmurodAka" />
+        <div className={styles.mentor}>
+          <img src={Azamjon} alt="Azamjon Abdullayev" />
           <div className={`${styles.mentorText} ${styles.mentorBox}`}>
             <div className={styles.mentorHeader}>
-              <h1>Dehqanov Dilmurod</h1>
+              <h1>Azamjon Abdullayev</h1>
               <p className={styles.mentorExper}>
-                2,5+ yillik tajribaga ega Full stack dasturchi.
+                3+ yillik tajribaga ega Full stack dasturchi.
               </p>
               <p className={styles.mentorDesc}>
                 Frontend texnologiyalari veb-saytlarning va veb-ilovalarining
@@ -247,33 +184,8 @@ export default function Mentors() {
               <img className={styles.css} src={css} alt="css" />
               <img className={styles.js} src={js} alt="js" />
               <img className={styles.react} src={react} alt="react" />
-              <img className={styles.java} src={java} alt="java" />
+              <img className={styles.java} src={nodejs} alt="java" />
               <img className={styles.phyton} src={database} alt="database" />
-            </div>
-          </div>
-        </div> */}
-
-        <div className={styles.mentor}>
-          <img src={Abdulaziz} alt="Abdulaziz" />
-          <div className={`${styles.mentorText} ${styles.mentorBox}`}>
-            <div className={styles.mentorHeader}>
-              <h1>Ikromov Abdulaziz</h1>
-              <p className={styles.mentorExper}>
-                2+ yillik tajribaga ega Backend dasturchi.
-              </p>
-              <p className={styles.mentorDesc}>
-                Frontend texnologiyalari veb-saytlarning va veb-ilovalarining
-                foydalanuvchi interfeysini yaratishda ishlatiladigan
-                texnologiyalardir.
-              </p>
-            </div>
-            <div className={styles.technologies}>
-              <img className={styles.html} src={html} alt="html" />
-              <img className={styles.css} src={css} alt="css" />
-              <img className={styles.boostrap} src={boostrap} alt="boostrap" />
-              <img className={styles.js} src={js} alt="js" />
-              <img className={styles.database} src={nodejs} alt="nodejs" />
-              <img className={styles.database} src={mongodb} alt="mongodb" />
             </div>
           </div>
         </div>
@@ -296,6 +208,47 @@ export default function Mentors() {
               <img className={styles.phyton} src={phyton} alt="phyton" />
               <img className={styles.security} src={phyton2} alt="phyton2" />
               <img className={styles.scratch} src={scratch} alt="scratch" />
+            </div>
+          </div>
+        </div>
+        <div className={styles.mentor}>
+          <img src={""} alt="Azimov Foziljon" />
+          <div className={`${styles.mentorText} ${styles.mentorBox}`}>
+            <div className={styles.mentorHeader}>
+              <h1>Foziljon Azimov</h1>
+              <p className={styles.mentorExper}>
+                2+ yillik tajribaga ega Front-end dasturchi.
+              </p>
+              <p className={styles.mentorDesc}>
+                Frontend — bu veb-saytning siz ko‘radigan qismi, masalan,
+                tugmalar, rasmlar va matnlar. U saytni chiroyli va qulay
+                ishlashini ta’minlaydi.
+              </p>
+            </div>
+            <div className={styles.technologies}>
+              <img className={styles.html} src={html} alt="html" />
+              <img className={styles.css} src={css} alt="css" />
+              <img className={styles.boostrap} src={boostrap} alt="boostrap" />
+              <img className={styles.js} src={js} alt="js" />
+              <img className={styles.react} src={react} alt="react" />
+            </div>
+          </div>
+        </div>
+        <div className={styles.mentor}>
+          <img src={""} alt="Qodirov Samandar" />
+          <div className={`${styles.mentorText} ${styles.mentorBox}`}>
+            <div className={styles.mentorHeader}>
+              <h1>Samandar Qodirov</h1>
+              <p className={styles.mentorExper}>
+                2+ yillik tajribaga ega Kompyuter savodxonligi mutaxassisi.
+              </p>
+            </div>
+            <div className={styles.technologies}>
+              {/* <img className={styles.html} src={html} alt="html" />
+              <img className={styles.css} src={css} alt="css" />
+              <img className={styles.boostrap} src={boostrap} alt="boostrap" />
+              <img className={styles.js} src={js} alt="js" />
+              <img className={styles.react} src={react} alt="react" /> */}
             </div>
           </div>
         </div>
